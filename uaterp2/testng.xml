@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="uaterp2.securityRole"/>
+      <class name="uaterp2.RoleAuthourization"/>
+      <class name="uaterp2.createVendorOrganisationFailedTest"/>
+      <class name="uaterp2.workHeirarchyUpdate"/>
+      <class name="uaterp2.geometry"/>
+      <class name="uaterp2.createvendorOrganisation"/>
+      <class name="uaterp2.workflow"/>
+      <class name="uaterp2.dedudction"/>
+      <class name="uaterp2.createVendorIndividual"/>
+      <class name="uaterp2.worAuthorisation"/>
+      <class name="uaterp2.BOQ"/>
+      <class name="uaterp2.codeValue"/>
+      <class name="uaterp2.CreateWork"/>
+      <class name="uaterp2.EMB"/>
+      <class name="uaterp2.WorkHierarchy"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
